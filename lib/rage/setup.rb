@@ -4,7 +4,7 @@ require_relative "#{Rage.root}/config/environments/#{Rage.env}"
 require 'zeitwerk'
 require 'filewatcher'
 
-autoload_path = "#{Rage.root}/app"
+autoload_path = "#{Rage.root}/app/"
 
 loader = Zeitwerk::Loader.new
 loader.push_dir(autoload_path)
