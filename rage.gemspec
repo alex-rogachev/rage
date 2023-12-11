@@ -31,4 +31,5 @@ Gem::Specification.new do |spec|
   spec.add_dependency "rack", "~> 2.0"
   spec.add_dependency "rage-iodine", "~> 2.2"
   spec.add_dependency "zeitwerk", "~> 2.6"
+  spec.add_dependency "filewatcher", "~> 2.1"
 end
